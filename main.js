@@ -12,12 +12,12 @@ const comboOne = 50 / 5;
 const comboTwo = 25 + 15;
 const comboThree = 69 - 30;
 
-console.log(comboOne, comboTwo, comboThree);
+const secretCombo = " " + comboOne + ", " + comboTwo + ", " + comboThree;
 
 //Message to the user
 const secretMessage = "You have received this message because you have been chosen to open an important vault. Here is the secret combination: ";
 
-alert(secretMessage);
+alert(secretMessage + secretCombo);
 
 //I want to get input from the user so that they can enter the combination somewhere
 
